@@ -1,0 +1,185 @@
+	.clearfix:after { clear: both; content: " "; display: block; line-height: 0; height: 0; visibility: hidden; }
+	
+	.picker-left { float: left; padding: 30px 25px 0 0; }	
+	#picker { float: left; }
+	
+/* Main Container */
+	
+	.wp-auctions { margin: 15px 15px 0 5px; padding: 0 0 40px 0; }
+	.wp-auctions .wrap { margin: 0; }
+	.wp-auctions p { margin: 5px 0 !important; }
+	
+	.wp-auctions a { color: #21759b; font-weight: bold; text-decoration: none; }
+	.wp-auctions a:hover { color: #D54E21; }
+	
+	.wp-auctions h3 { background: #EBEBDA; font-size: 13px; margin: 0 0 10px; padding: 5px; }
+	
+	.latestnews { background: #fff; border: 1px solid #fff; border-right: 0; float: left; margin: 0; padding: 0; width: 49.4%; }
+	.latestnews ul { list-style: disc; margin: 14px 0 14px 23px; }
+	.latestnews li { margin: 0; padding: 4px 0; }
+	.latestnews h3 { background: #EBEBDA url(rss.png) no-repeat 5px 6px; padding: 5px 0 5px 26px; }
+
+	.wpa-info { background: #fff; border: 1px solid #fff; float: left; padding: 0; width: 50%; }
+	.wpa-info h3.wpa-about { background: #EBEBDA url(about.png) no-repeat 5px 7px; padding-left: 25px; }
+	.wpa-info h3.wpa-resources { background: #EBEBDA url(resources.png) no-repeat 5px 7px; padding-left: 25px; }
+	.wpa-intro h3.wpa-dashboard { background: #EBEBDA url(wpa.png) no-repeat 5px 7px; padding-left: 25px; }
+	.wpa-intro h3.wpa-getstarted { background: #EBEBDA url(start.png) no-repeat 5px 7px; margin-bottom: 15px; padding-left: 25px; }
+	
+	/* Intro Box */
+	.wpa-intro { background: #fff; color: #333; padding: 10px 10px 0; }
+	.wpa-intro p { margin: 0; padding: 0 0 5px 5px; }
+	.wpa-info p { font-style: normal; font-weight: normal; margin: 0; padding: 0 0 10px 5px; }
+	
+	.wp-auctions p.wpa-showicon { background: url(alert.png) no-repeat 0; padding-left: 26px; }
+	
+	/* Main Titles */
+	.wp-auctions h2 { color: #555; font-size: 20px; line-height: 28px; margin: 10px 0 0; padding: 5px !important; }
+	.wpa-intro h2 { font-size: 28px; margin: 0 0 10px; padding: 0 !important; }
+	
+	.wp-auctions .buttons { display: inline-block; padding: 0 10px 0 0; }
+
+	.wp-auctions h2 span { font-size: 12px; }
+	
+	.wp-auctions h2.payment, .wp-auctions h2.other-settings, .wp-auctions h2.manage, .wp-auctions h2.details, .wp-auctions h2.shipping, .wp-auctions h2.settings {
+	background-color: #f5f5f5;
+	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+	background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	*background-color: #e6e6e6;
+	/* Darken IE7 buttons by default so they stand out more given they won't have borders */
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
+		
+	h2.settings { border: 1px solid #ccc; font-style: normal; padding: 10px 5px; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; }
+	h2.settings em { background: url(settings.png) no-repeat 5px 2px; font-style: normal; padding: 0 0 0 41px; }
+	
+	h2.payment { border: 1px solid #ccc; font-style: normal; padding: 10px 5px; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; }
+	h2.payment em { background: url(payment.png) no-repeat 5px 5px; font-style: normal; padding: 0 0 0 41px; }
+	
+	h2.other-settings { border: 1px solid #ccc; font-style: normal; padding: 10px 5px; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; }
+	h2.other-settings em { background: url(other-settings.png) no-repeat 5px top; font-style: normal; padding: 0 0 0 41px; }
+
+	h2.manage { border: 1px solid #ccc; font-style: normal; padding: 10px 5px; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; }
+	h2.manage em { background: url(manage.png) no-repeat 5px top; font-style: normal; padding: 0 0 0 41px; }
+
+	h2.details { border: 1px solid #ccc; font-style: normal; padding: 10px 5px; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; }
+	h2.details em { background: url(details.png) no-repeat 5px 5px; font-style: normal; padding: 2px 0 2px 41px; }
+	
+	h2.shipping { border: 1px solid #ccc; font-style: normal; padding: 10px 5px; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; }
+	h2.shipping em { background: url(shipping.png) no-repeat 5px 5px; font-style: normal; padding: 2px 0 2px 41px; }
+	
+	h2.emailsettings em { background: url(email.png) no-repeat 5px 6px; }
+	
+	.wp-auctions h2.settings-nm { margin: 0; }
+	
+	/* Get Started */
+	
+	ul.wpa-start { margin: 15px 0 0; }
+	ul.wpa-start li { float: left; padding: 0; }
+	ul.wpa-start li button { font-size: 15px !important; padding: 5px 10px; }
+	ul.wpa-start .wpa-upgrade button strong { background: url(upgrade.png) no-repeat left 2px; padding-left: 20px; }
+	
+	/* Time */
+	
+	.wpa-time { background: url(time.png) no-repeat left; text-align: left; color: #333; font-size: 12px; padding: 0 0 0 27px; text-transform: uppercase; }
+	.wpa-auction-engine { text-align: left; color: #333; font-size: 9px; padding: 0; }
+
+	/* Tables */
+	
+	.wp-auctions table.widefat { border: 1px solid #ccc; border-top: 0; margin: 0 !important; -moz-border-radius: 0; -webkit-border-radius: 0; -webkit-border-bottom-left-radius: 5px; -webkit-border-bottom-right-radius: 5px; -moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; text-shadow: #fff 0 1px; }
+	.wp-auctions table.widefat th { background: #faffee; border-right: 1px solid #bcaa97; border-top: 1px solid #fff; color: #342224; padding: 5px 10px; vertical-align: middle; width: 200px; }
+	.wp-auctions table.widefat th small { color: #342224; font-weight: normal; }
+	.wp-auctions table.widefat td { background: #ebebda; border-bottom: 1px solid #bcaa97; border-left: 1px solid #fff; border-top: 1px solid #fff; color: #5a372c; padding: 5px 10px; }
+
+	.wp-auctions table.widefat input[type="text"] { border: 1px solid #bcaa97; margin: 0 0 5px; padding: 5px; width: 220px; }
+	.wp-auctions table.widefat input.required { border: 1px solid #bcaa97; margin: 0 0 5px; padding: 5px; width: auto; }
+	.wp-auctions table.widefat select { border: 1px solid #bcaa97; margin: 0 0 5px; }
+	.wp-auctions table.widefat #wpa-regonly, .wp-auctions table.widefat #wpa-list { border: 1px solid #bcaa97;  width: 230px; }
+	.wp-auctions table.widefat textarea { border: 1px solid #bcaa97; margin: 0 0 5px; padding: 5px; width: 400px; }
+	
+	.wp-auctions p.submit { padding: 15px 0 0; }
+	.wp-auctions p.submit input { font-size: 15px !important; font-weight: bold; padding: 5px 10px; }
+
+	.options legend { color: #342224; font-size: 17px; font-weight: bold; padding: 8px 0 10px; }
+	.options table.widefat { border: 1px solid #bcaa97; }
+	.options table.widefat th { border-bottom: 0; border-left: 1px solid #fff; border-right-color: #bcaa97; }
+	.options table.widefat td { border-bottom: 0; border-left: 1px solid #EBEBDA; border-right: 1px solid #EBEBDA; border-top: 1px solid #bcaa97; }
+	.options table.widefat tr { border-bottom: 1px solid #bcaa97; }
+
+	#wpa-radio { width: 25px; }
+
+	.add-auction { padding: 0 !important; margin: 20px 0 0 !important; }
+	.add-auction input { font-size: 15px !important; font-weight: bold; padding: 5px 10px; }
+	input.add-auction { padding: 0 15px !important; }
+
+	.wp-auctions-managebids { width: 90%; }
+	.wp-auctions-managebids table.widefat { border-top: 0; }
+	.wp-auctions table.widefat td.wpa-auction-details { width: 15% !important; }
+	.wp-auctions table.widefat td.wpa-auction-details p { margin: 0;}
+	.wp-auctions table.widefat td.wpa-auction-details h4 { font-size: 12px; margin: 0 0 5px; }
+	.wp-auctions table.widefat td.wpa-auction-details img { background: #fff; border: 1px solid #bcaa97; margin: 0 0 5px; padding: 5px; }
+	.wp-auctions table.widefat td.wpa-auction-created { width: 15% !important; }
+	.wp-auctions table.widefat td.wpa-auction-bids {  width: 30% !important; }
+	.wp-auctions table.widefat td.wpa-auction-currentprice { width: 15% !important; }
+	.wp-auctions table.widefat td.wpa-auction-actions { width: 15% !important; }
+
+	.wp-auctions table.widefat .mceLayout td.mceToolbar { background: #EBEBDA; border: 0; padding: 5px 0; }
+	.wp-auctions table.widefat .mceLayout td.mceIframeContainer { background: #fff; border: 1px solid #bcaa97; padding: 0; }
+	.wp-auctions table.widefat .mceLayout td.mceStatusbar { border: 0; padding: 5px 0 0; }
+	.wp-auctions table.widefat .mce_fullscreen { display: none !important; }
+	
+	.wpa-check { background: #E8FFC6 url(check.png) no-repeat 10px center; border: 1px solid #A0E237; color: #4B773D; font-size: 13px; margin: 0 0 5px; padding: 10px 10px 10px 36px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+
+	.wp-auctions .error { background: #FFEBE8 url(warning.png) no-repeat 10px 10px; padding: 10px 10px 5px 37px; }
+	.wp-auctions .error ul { list-style: disc; margin: 10px 0 0 15px; font-style: italic; }
+	
+	.add-template a { background: #f2f2f2 url(/wp-admin/images/white-grad.png) repeat-x scroll left top; border: 1px solid #ccc; display: inline-block; margin: 10px 0 0; padding: 5px 10px; text-shadow:rgba(255,255,255,1) 0 1px 0; -webkit-border-radius: 5px; -moz-border-radius: 5px;; }
+
+	.save-template-name, .frmb-submit { background: #f2f2f2 url(/wp-admin/images/white-grad.png) repeat-x scroll left top; border: 1px solid #ccc !important; color: #21759b !important; display: inline-block; font-size: 12px !important; font-weight: bold; margin: 10px 0 0; padding: 5px 10px; text-shadow:rgba(255,255,255,1) 0 1px 0; -webkit-border-radius: 5px; -moz-border-radius: 5px; }
+	.save-template-name:hover, .frmb-submit:hover { border-color: #ccc !important; color: #d54e21 !important; cursor: pointer; }
+	
+	#formBuilderReturn { background: #E8FFC6 url(check.png) no-repeat 10px center; color: #4B773D; font-size: 13px; line-height: 30px; margin: 10px 0 5px; padding-left: 36px; width: 174px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+
+	.widefat .checkbox { background: none; }
+
+	.wpa-template-to-use { background: #FAFFEE; border: 1px solid #ccc; margin: 10px 0 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+	.wpa-template-to-use p { background: #EBEBDA; color: #342224; display: inline-block; font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif; font-size: 15px; margin: 0 !important; padding: 10px; width: 200px; }
+	.wpa-template-to-use form { display: inline-block; padding: 3px 10px; }
+	.wpa-template-to-use form select { border: 1px solid #bcaa97; }
+
+	/* RSVP */
+	#manage_bidders { padding: 0 0 10px 0;}
+	#manage_bidders span { display: inline-block; padding: 0 10px 0 0; }
+	#manage_bidders select { margin: 0 10px 0 0; }
+
+	.manage-bidders .widefat { margin: 0 0 20px; }
+	.manage-bidders .widefat td { padding: 7px; }
+	.manage-bidders h3 { margin-bottom: 0; }
+
+	fieldset.switch { position: relative; left: -20px; }
+
+	#messages { left: 215px; position: absolute; top: 10px; }
+	#message { padding: 3px 9px; }
+	#messages p { margin: 0; padding: 0; }
+
+	.wpa-rtb-records { background: url(check.png) no-repeat 5px center; }
+	.wpa-rtb-records p { padding-left: 20px !important; }
+
+	.wpa-rtb-updated, .wpa-rtb-setting { background: url(alert.png) no-repeat 5px center; }
+	.wpa-rtb-updated p, .wpa-rtb-setting p { padding-left: 20px !important; }
+
+	.wpa-rtb-error { background: url(warning.png) no-repeat 5px center; }
+	.wpa-rtb-error p { padding-left: 20px !important; }
+
+	.wpa-manage-left { float: left; }
+	.wpa-manage-right { float: right; }
+
+	.wpa-update-screen { padding: 0 0 10px; }
+	.wpa-update-screen h3 { background: none; border-bottom: 2px solid #BCAA97; display: inline-block; font-size: 16px; padding: 10px 0px; margin: 0; }
+	.wpa-update-screen p { font-size: 16px; padding: 10px 0 0; }
+	.wpa-update-screen a.button { font-size: 14px; padding: 3px 15px; height: auto; }

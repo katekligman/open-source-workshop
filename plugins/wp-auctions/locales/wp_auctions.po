@@ -1,0 +1,274 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Auctions\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-03 11:13-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Owen Cutajar <owen@cutajar.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp_auctions.php:1079
+msgid "No auctions found"
+msgstr ""
+
+#: wp_auctions.php:1080
+msgid "Sorry, we seem to have sold out of everything we had!"
+msgstr ""
+
+#: wp_auctions.php:1123
+msgid "Ending"
+msgstr ""
+
+#: wp_auctions.php:1126
+msgid "My eBay feedback"
+msgstr ""
+
+#: wp_auctions.php:1132
+msgid "Other Auctions"
+msgstr ""
+
+#: wp_auctions.php:1274
+msgid "General Settings"
+msgstr ""
+
+#: wp_auctions.php:1278
+msgid "Auction Title:"
+msgstr ""
+
+#: wp_auctions.php:1281
+msgid "Enter header title for your auctions"
+msgstr ""
+
+#: wp_auctions.php:1284
+msgid "Currency:"
+msgstr ""
+
+#: wp_auctions.php:1298
+msgid "Choose the currency you would like to run your auctions in"
+msgstr ""
+
+#: wp_auctions.php:1301
+msgid "Bid Notification:"
+msgstr ""
+
+#: wp_auctions.php:1304
+msgid "Enter your email address if you want to be notified whenever a new bid is placed"
+msgstr ""
+
+#: wp_auctions.php:1307
+msgid "eBay Feedback:"
+msgstr ""
+
+#: wp_auctions.php:1310
+msgid "If you have lots of eBay feedback, we can add a link to show users what a great auctioneer you are"
+msgstr ""
+
+#: wp_auctions.php:1313
+msgid "Other Auctions:"
+msgstr ""
+
+#: wp_auctions.php:1328
+msgid "How many other auctions would you like to display in the widget?"
+msgstr ""
+
+#: wp_auctions.php:1331
+msgid "Registered Users Only:"
+msgstr ""
+
+#: wp_auctions.php:1338
+msgid "Do bidders have to have a registered WordPress account to bid?"
+msgstr ""
+
+#: wp_auctions.php:1342
+msgid "Payment and Shipping Settings"
+msgstr ""
+
+#: wp_auctions.php:1346
+msgid "PayPal account:"
+msgstr ""
+
+#: wp_auctions.php:1349
+msgid "Enter your PayPal email address (where you want auction winners to pay for their items)"
+msgstr ""
+
+#: wp_auctions.php:1352
+msgid "Bank Details:"
+msgstr ""
+
+#: wp_auctions.php:1356
+msgid "Enter your bank details (where you want auction winners to wire tranfers to you)"
+msgstr ""
+
+#: wp_auctions.php:1359
+msgid "Mailing Address:"
+msgstr ""
+
+#: wp_auctions.php:1363
+msgid "Enter your mailing address address (where you want auction winners to mail you cheques and money orders)"
+msgstr ""
+
+#: wp_auctions.php:1367
+msgid "Other Settings"
+msgstr ""
+
+#: wp_auctions.php:1371
+msgid "Style:"
+msgstr ""
+
+#: wp_auctions.php:1384
+msgid "Choose a graphical style for your widget. Get new styles from our <a href=\"http://www.wpauctions.com/styles\">style store</a>."
+msgstr ""
+
+#: wp_auctions.php:1387
+msgid "List Format:"
+msgstr ""
+
+#: wp_auctions.php:1394
+msgid "Select whether you prefer the sidebar widget to show a graphical or list format"
+msgstr ""
+
+#: wp_auctions.php:1397
+msgid "\"No Auction\" Alternative:"
+msgstr ""
+
+#: wp_auctions.php:1401
+msgid "Specify the HTML you would like to display if there are no active auctions. Leave blank for standard \"No Auctions\" display<br>To rotate ads, separate with &lt;!--more--&gt;"
+msgstr ""
+
+#: wp_auctions.php:1408
+msgid "Update Options"
+msgstr ""
+
+#: wp_auctions.php:1432
+msgid "WP Auctions"
+msgstr ""
+
+#: wp_auctions.php:1697
+msgid "Title:"
+msgstr ""
+
+#: wp_auctions.php:1699
+msgid "Specify the title for your auction."
+msgstr ""
+
+#: wp_auctions.php:1702
+msgid "Description:"
+msgstr ""
+
+#: wp_auctions.php:1706
+msgid "Specify the description for your auction."
+msgstr ""
+
+#: wp_auctions.php:1709
+msgid "Image URL:"
+msgstr ""
+
+#: wp_auctions.php:1711
+#: wp_auctions.php:1767
+#: wp_auctions.php:1772
+#: wp_auctions.php:1777
+msgid "Specify the image URL for your auction."
+msgstr ""
+
+#: wp_auctions.php:1714
+msgid "Thumbnail URL:"
+msgstr ""
+
+#: wp_auctions.php:1716
+msgid "Specify the image thubnail URL for your auction."
+msgstr ""
+
+#: wp_auctions.php:1719
+msgid "Start Price:"
+msgstr ""
+
+#: wp_auctions.php:1721
+msgid "Specify the starting price for your auction. Leave empty (or 0) for Fixed Price BIN"
+msgstr ""
+
+#: wp_auctions.php:1724
+msgid "Duration:"
+msgstr ""
+
+#: wp_auctions.php:1726
+msgid "How many days would you like the auction to run for?"
+msgstr ""
+
+#: wp_auctions.php:1729
+msgid "Payment Method:"
+msgstr ""
+
+#: wp_auctions.php:1734
+msgid "Specify the payment method from this auction (Only options you filled on the Configuration screen are available)"
+msgstr ""
+
+#: wp_auctions.php:1741
+msgid "Shipping Price:"
+msgstr ""
+
+#: wp_auctions.php:1743
+msgid "How much would you like to charge for shipping?"
+msgstr ""
+
+#: wp_auctions.php:1746
+msgid "Shipping To:"
+msgstr ""
+
+#: wp_auctions.php:1748
+msgid "Where are you prepared to ship this item to?"
+msgstr ""
+
+#: wp_auctions.php:1751
+msgid "Shipping From:"
+msgstr ""
+
+#: wp_auctions.php:1753
+msgid "Where are you shipping this item from?"
+msgstr ""
+
+#: wp_auctions.php:1760
+msgid "Buy It Now Price:"
+msgstr ""
+
+#: wp_auctions.php:1762
+msgid "Specify the \"Buy It Now\" price for your auction."
+msgstr ""
+
+#: wp_auctions.php:1765
+msgid "Extra Image URL 1:"
+msgstr ""
+
+#: wp_auctions.php:1770
+msgid "Extra Image URL 2:"
+msgstr ""
+
+#: wp_auctions.php:1775
+msgid "Extra Image URL 3:"
+msgstr ""
+
+#: wp_auctions.php:1781
+msgid "Show auction in AJAX Popup:"
+msgstr ""
+
+#: wp_auctions.php:1788
+msgid "If you don't want to use the popup, you can direct the auction to a <a href=\"edit.php\">post</a> or <a href=\"edit-pages.php\">page</a> (you'll need to add the Auction placeholder to the page)"
+msgstr ""
+
+#: wp_auctions.php:1792
+msgid "URL for Static Page:"
+msgstr ""
+
+#: wp_auctions.php:1794
+msgid "Please specify a static page for this auction (you will need to insert the auction on the page manually)"
+msgstr ""
+
+#: wp_auctions.php:1868
+msgid "Manage Auctions"
+msgstr ""
+

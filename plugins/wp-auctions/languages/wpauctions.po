@@ -1,0 +1,751 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Auctions\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-03 19:21+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Owen Cutajar <owen@cutajar.net>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: auction.php:167
+msgid "Auctions RSS feed"
+msgstr ""
+
+#: auction.php:167
+msgid "Close Window"
+msgstr ""
+
+#: auction.php:176
+msgid "Current Bid:"
+msgstr ""
+
+#: auction.php:177
+msgid "Refresh"
+msgstr ""
+
+#: auction.php:182
+msgid "Loading Auction"
+msgstr ""
+
+#: auction.php:187
+msgid "Ending Date"
+msgstr ""
+
+#: auction.php:188
+msgid "Starting Bid"
+msgstr ""
+
+#: auction.php:189
+msgid "Winning Bid"
+msgstr ""
+
+#: auction.php:190
+msgid "Shipping Cost"
+msgstr ""
+
+#: auction.php:191
+msgid "Will Ship To"
+msgstr ""
+
+#: auction.php:200
+msgid "Enter Your Details To Bid"
+msgstr ""
+
+#: auction.php:200
+msgid "required"
+msgstr ""
+
+#: auction.php:204
+msgid "Bidding allowed for registered users only."
+msgstr ""
+
+#: auction.php:204
+msgid "Register"
+msgstr ""
+
+#: auction.php:204
+msgid "or"
+msgstr ""
+
+#: auction.php:204
+msgid "Log in"
+msgstr ""
+
+#: auction.php:232 wp_auctions.php:2391 wp_auctions.php:2471
+msgid "Name"
+msgstr ""
+
+#: auction.php:236
+msgid "Email"
+msgstr ""
+
+#: auction.php:240
+msgid "URL"
+msgstr ""
+
+#: auction.php:251
+msgid "Enter Your Maximum Bid"
+msgstr ""
+
+#: auction.php:257 wp_auctions.php:1413
+msgid "Bid Now"
+msgstr ""
+
+#: auction.php:271
+msgid "Current Bids"
+msgstr ""
+
+#: auction.php:272 wp_auctions.php:1391
+msgid "Other Auctions"
+msgstr ""
+
+#: auction.php:278
+msgid "Loading bids"
+msgstr ""
+
+#: wp_auctions.php:881
+msgid "Please configure the widget from the Auctions Configuration Screen"
+msgstr ""
+
+#: wp_auctions.php:1342
+msgid "No auctions found"
+msgstr ""
+
+#: wp_auctions.php:1343
+msgid "Sorry, we seem to have sold out of everything we had!"
+msgstr ""
+
+#: wp_auctions.php:1381
+msgid "more..."
+msgstr ""
+
+#: wp_auctions.php:1386
+msgid "Ending"
+msgstr ""
+
+#: wp_auctions.php:1594
+msgid "General Settings"
+msgstr ""
+
+#: wp_auctions.php:1598
+msgid "Auction Title:"
+msgstr ""
+
+#: wp_auctions.php:1601
+msgid "Enter header title for your auctions"
+msgstr ""
+
+#: wp_auctions.php:1604
+msgid "Currency:"
+msgstr ""
+
+#: wp_auctions.php:1620
+msgid "Warning!"
+msgstr ""
+
+#: wp_auctions.php:1620
+msgid ""
+"If you use a custom currency, please remember that PayPal only supports a"
+msgstr ""
+
+#: wp_auctions.php:1620
+msgid "small subset of currencies"
+msgstr ""
+
+#: wp_auctions.php:1620
+msgid "If you use a currency outside this set, any PayPal payments will fail."
+msgstr ""
+
+#: wp_auctions.php:1620
+msgid ""
+"You can still use Bank Payments and send your Address for cheques/money "
+"orders etc..."
+msgstr ""
+
+#: wp_auctions.php:1621
+msgid "Currency Code:"
+msgstr ""
+
+#: wp_auctions.php:1622
+msgid "Currency Symbol:"
+msgstr ""
+
+#: wp_auctions.php:1624
+msgid "Choose the currency you would like to run your auctions in"
+msgstr ""
+
+#: wp_auctions.php:1624
+msgid "Click here for custom Currency Codes and Symbols"
+msgstr ""
+
+#: wp_auctions.php:1627
+msgid "Bid Increment:"
+msgstr ""
+
+#: wp_auctions.php:1630 wp_auctions.php:2577
+msgid "Standard"
+msgstr ""
+
+#: wp_auctions.php:1631
+msgid "Custom"
+msgstr ""
+
+#: wp_auctions.php:1635
+msgid "Your increment amount:"
+msgstr ""
+
+#: wp_auctions.php:1637
+msgid ""
+"If you want to override the custom automatic increments, you can specify a "
+"custom increment here. This defines what the next bid value would be."
+msgstr ""
+
+#: wp_auctions.php:1640
+msgid "Bid Notification:"
+msgstr ""
+
+#: wp_auctions.php:1643
+msgid ""
+"Enter your email address if you want to be notified whenever a new bid is "
+"placed"
+msgstr ""
+
+#: wp_auctions.php:1646
+msgid "Other Auctions:"
+msgstr ""
+
+#: wp_auctions.php:1661
+msgid "How many other auctions would you like to display in the widget?"
+msgstr ""
+
+#: wp_auctions.php:1665
+msgid "Registered Users Only?"
+msgstr ""
+
+#: wp_auctions.php:1668
+msgid "No, anyone can bid"
+msgstr ""
+
+#: wp_auctions.php:1669
+msgid "Yes, only registered users can bid"
+msgstr ""
+
+#: wp_auctions.php:1672
+msgid ""
+"If you select Yes, please visit your Settings > General panel you must check "
+"the \"Anyone can register\" box and set the new user role as a subscriber."
+msgstr ""
+
+#: wp_auctions.php:1677
+msgid "Payment Settings - Please supply at least one of the following"
+msgstr ""
+
+#: wp_auctions.php:1681
+msgid "PayPal account:"
+msgstr ""
+
+#: wp_auctions.php:1684
+msgid ""
+"Enter your PayPal email address (where you want auction winners to pay for "
+"their items)"
+msgstr ""
+
+#: wp_auctions.php:1687
+msgid "Bank Details:"
+msgstr ""
+
+#: wp_auctions.php:1691
+msgid ""
+"Enter your bank details (where you want auction winners to wire tranfers to "
+"you)"
+msgstr ""
+
+#: wp_auctions.php:1694
+msgid "Mailing Address:"
+msgstr ""
+
+#: wp_auctions.php:1698
+msgid ""
+"Enter your mailing address address (where you want auction winners to mail "
+"you cheques and money orders)"
+msgstr ""
+
+#: wp_auctions.php:1702
+msgid "Other Settings"
+msgstr ""
+
+#: wp_auctions.php:1706
+msgid "Style:"
+msgstr ""
+
+#: wp_auctions.php:1719
+msgid "Choose a graphical style for your widget."
+msgstr ""
+
+#: wp_auctions.php:1722
+msgid "List Format:"
+msgstr ""
+
+#: wp_auctions.php:1725
+msgid "No, I prefer a graphical format"
+msgstr ""
+
+#: wp_auctions.php:1726
+msgid "Yes, show auctions in list format"
+msgstr ""
+
+#: wp_auctions.php:1729
+msgid ""
+"Select whether you prefer the sidebar widget to show a graphical or list "
+"format"
+msgstr ""
+
+#: wp_auctions.php:1733
+msgid "\"No Auction\" Alternative:"
+msgstr ""
+
+#: wp_auctions.php:1737
+msgid ""
+"Specify the HTML you would like to display if there are no active auctions. "
+"Leave blank for standard \"No Auctions\" display<br>To rotate ads, separate "
+"with &lt;!--more--&gt;"
+msgstr ""
+
+#: wp_auctions.php:1741
+msgid "Custom Contact Field:"
+msgstr ""
+
+#: wp_auctions.php:1744
+msgid ""
+"Enter your custom contact field caption (leave blank for URL <- this is the "
+"default setting)"
+msgstr ""
+
+#: wp_auctions.php:1747
+msgid "RSS Feed link:"
+msgstr ""
+
+#: wp_auctions.php:1750
+msgid "Hide RSS link"
+msgstr ""
+
+#: wp_auctions.php:1751
+msgid "Show RSS link"
+msgstr ""
+
+#: wp_auctions.php:1754
+msgid ""
+"Do you want to publish a link to your auction RSS feed. This can let people "
+"know when you publish new auctions"
+msgstr ""
+
+#: wp_auctions.php:1764 wp_auctions.php:2655
+msgid "Update Options"
+msgstr ""
+
+#: wp_auctions.php:1811
+msgid "Version:"
+msgstr ""
+
+#: wp_auctions.php:1814
+msgid "WP Auctions Pro News"
+msgstr ""
+
+#: wp_auctions.php:1818
+msgid "No news found"
+msgstr ""
+
+#: wp_auctions.php:1835
+msgid "Resources"
+msgstr ""
+
+#: wp_auctions.php:1836
+msgid "Support"
+msgstr ""
+
+#: wp_auctions.php:1837
+msgid "Leave a Rating"
+msgstr ""
+
+#: wp_auctions.php:1838
+msgid "Your ratings make us develop awesome features! Leave yours on "
+msgstr ""
+
+#: wp_auctions.php:1838
+msgid "WordPress.org"
+msgstr ""
+
+#: wp_auctions.php:1846
+msgid "Get Started:"
+msgstr ""
+
+#: wp_auctions.php:1849
+msgid "Add An Auction"
+msgstr ""
+
+#: wp_auctions.php:1850 wp_auctions.php:2376
+msgid "Manage Auctions"
+msgstr ""
+
+#: wp_auctions.php:2084
+msgid "Information"
+msgstr ""
+
+#: wp_auctions.php:2089
+msgid "Auction Details"
+msgstr ""
+
+#: wp_auctions.php:2152
+msgid "Title:"
+msgstr ""
+
+#: wp_auctions.php:2154
+msgid "Specify the title for your auction."
+msgstr ""
+
+#: wp_auctions.php:2157
+msgid "Description:"
+msgstr ""
+
+#: wp_auctions.php:2178
+msgid "Specify the description for your auction."
+msgstr ""
+
+#: wp_auctions.php:2179
+msgid "You can even include a video!"
+msgstr ""
+
+#: wp_auctions.php:2179
+msgid "Important: Video width and height MUST be width=\"324\" height=\"254\""
+msgstr ""
+
+#: wp_auctions.php:2182
+msgid "Primary Image:"
+msgstr ""
+
+#: wp_auctions.php:2185 wp_auctions.php:2252
+msgid "Select an image:"
+msgstr ""
+
+#: wp_auctions.php:2191 wp_auctions.php:2258
+msgid "Upload"
+msgstr ""
+
+#: wp_auctions.php:2196
+msgid "Start Price:"
+msgstr ""
+
+#: wp_auctions.php:2198
+msgid ""
+"Specify the starting price for your auction. Leave empty (or 0) for Fixed "
+"Price BIN"
+msgstr ""
+
+#: wp_auctions.php:2199
+msgid "Remember that you have configured bidding in increments of "
+msgstr ""
+
+#: wp_auctions.php:2203
+msgid "End Date:"
+msgstr ""
+
+#: wp_auctions.php:2205
+msgid "When would you like this auction to end? Note that blog time is: "
+msgstr ""
+
+#: wp_auctions.php:2208
+msgid "Payment Method:"
+msgstr ""
+
+#: wp_auctions.php:2211
+msgid "Wire Transfer"
+msgstr ""
+
+#: wp_auctions.php:2212
+msgid "Cheque or Money Order"
+msgstr ""
+
+#: wp_auctions.php:2213
+msgid ""
+"Specify the payment method from this auction (Only options you filled on the "
+"Configuration screen are available)"
+msgstr ""
+
+#: wp_auctions.php:2218
+msgid "Shipping Information"
+msgstr ""
+
+#: wp_auctions.php:2221
+msgid "Shipping Price:"
+msgstr ""
+
+#: wp_auctions.php:2223
+msgid "How much would you like to charge for shipping?"
+msgstr ""
+
+#: wp_auctions.php:2226
+msgid "Shipping To:"
+msgstr ""
+
+#: wp_auctions.php:2228
+msgid "Where are you prepared to ship this item to?"
+msgstr ""
+
+#: wp_auctions.php:2231
+msgid "Shipping From:"
+msgstr ""
+
+#: wp_auctions.php:2233
+msgid "Where are you shipping this item from?"
+msgstr ""
+
+#: wp_auctions.php:2238
+msgid "Optional Settings"
+msgstr ""
+
+#: wp_auctions.php:2243
+msgid "Buy It Now Price:"
+msgstr ""
+
+#: wp_auctions.php:2245
+msgid "Specify the \"Buy It Now\" price for your auction."
+msgstr ""
+
+#: wp_auctions.php:2249
+msgid "Extra Image:"
+msgstr ""
+
+#: wp_auctions.php:2265
+msgid "Show auction in AJAX Popup?:"
+msgstr ""
+
+#: wp_auctions.php:2268
+msgid "Yes"
+msgstr ""
+
+#: wp_auctions.php:2269
+msgid "No, show auction in a post"
+msgstr ""
+
+#: wp_auctions.php:2272
+msgid ""
+"If you don't want to use the popup, you can direct the auction to a <a href="
+"\"edit.php\">Post</a> or <a href=\"edit.php?post_type=page\">Page</a> "
+"(you'll need to add the Auction shortcode to the page)"
+msgstr ""
+
+#: wp_auctions.php:2276
+msgid "URL for Static Post/Page:"
+msgstr ""
+
+#: wp_auctions.php:2279
+msgid ""
+"Select a published <a href=\"edit.php\" target=\"_blank\">Post</a> or <a "
+"href=\"edit.php?post_type=page\" target=\"_blank\">Page</a> URL where this "
+"auction will be inserted."
+msgstr ""
+
+#: wp_auctions.php:2280
+msgid ""
+"Go to that Post/Page and use the \"Insert Auction\" panel to embed the "
+"auction shortcode."
+msgstr ""
+
+#: wp_auctions.php:2289 wp_auctions.php:2290
+msgid "Update Auction"
+msgstr ""
+
+#: wp_auctions.php:2292
+msgid "Add Auction"
+msgstr ""
+
+#: wp_auctions.php:2374
+msgid "Your WordPress Time:"
+msgstr ""
+
+#: wp_auctions.php:2379
+msgid "Current Auctions"
+msgstr ""
+
+#: wp_auctions.php:2390 wp_auctions.php:2470
+msgid "ID"
+msgstr ""
+
+#: wp_auctions.php:2392 wp_auctions.php:2472
+msgid "Created/Ending"
+msgstr ""
+
+#: wp_auctions.php:2393 wp_auctions.php:2473
+msgid "Bids"
+msgstr ""
+
+#: wp_auctions.php:2394
+msgid "Current Price"
+msgstr ""
+
+#: wp_auctions.php:2395 wp_auctions.php:2475
+msgid "Thumbnail"
+msgstr ""
+
+#: wp_auctions.php:2396 wp_auctions.php:2476
+msgid "Actions"
+msgstr ""
+
+#: wp_auctions.php:2409
+msgid "Created:"
+msgstr ""
+
+#: wp_auctions.php:2410
+msgid "Ending:"
+msgstr ""
+
+#: wp_auctions.php:2432
+msgid "Cancel Last Bid"
+msgstr ""
+
+#: wp_auctions.php:2437
+msgid "No bids"
+msgstr ""
+
+#: wp_auctions.php:2440
+msgid "Are you sure you want to end auction"
+msgstr ""
+
+#: wp_auctions.php:2440
+msgid "End Auction"
+msgstr ""
+
+#: wp_auctions.php:2441
+msgid "Edit"
+msgstr ""
+
+#: wp_auctions.php:2442
+msgid "Delete auction"
+msgstr ""
+
+#: wp_auctions.php:2442 wp_auctions.php:2512
+msgid "Delete"
+msgstr ""
+
+#: wp_auctions.php:2454 wp_auctions.php:2524
+msgid "No auctions defined"
+msgstr ""
+
+#: wp_auctions.php:2460
+msgid "Closed Auctions"
+msgstr ""
+
+#: wp_auctions.php:2474
+msgid "Final Price"
+msgstr ""
+
+#: wp_auctions.php:2489
+msgid "Started:"
+msgstr ""
+
+#: wp_auctions.php:2490
+msgid "Ended:"
+msgstr ""
+
+#: wp_auctions.php:2511
+msgid "Relist"
+msgstr ""
+
+#: wp_auctions.php:2570
+msgid "Email Settings"
+msgstr ""
+
+#: wp_auctions.php:2574
+msgid "Mail Server:"
+msgstr ""
+
+#: wp_auctions.php:2578
+msgid "Implement Windows Fix"
+msgstr ""
+
+#: wp_auctions.php:2581
+msgid ""
+"If you are using the plugin on a Windows Server, you may need to change this "
+"setting to implement a change for Windows. <a href=\"http://www.u-g-h."
+"com/2007/04/27/phpmailer-issue-on-iis/\">More info</a>"
+msgstr ""
+
+#: wp_auctions.php:2585
+msgid "Custom Message Settings"
+msgstr ""
+
+#: wp_auctions.php:2589
+msgid "Message Options:"
+msgstr ""
+
+#: wp_auctions.php:2591
+msgid "The name of your auction site"
+msgstr ""
+
+#: wp_auctions.php:2592
+msgid "The name of the auction this message relates to"
+msgstr ""
+
+#: wp_auctions.php:2593
+msgid "Link back to the auction about which the email is being sent"
+msgstr ""
+
+#: wp_auctions.php:2594
+msgid "Current price of the auction about which the email is being sent"
+msgstr ""
+
+#: wp_auctions.php:2595
+msgid "Details of how the payment is to be made"
+msgstr ""
+
+#: wp_auctions.php:2596
+msgid "Your contact email address"
+msgstr ""
+
+#: wp_auctions.php:2600
+msgid "Auction outbid notice:"
+msgstr ""
+
+#: wp_auctions.php:2622
+msgid ""
+"If you want a custom message to use when a bidder is outbid, please enter it "
+"here. You can use the keywords:<br><strong>{site_name}, {auction_name}, "
+"{auction_link}, {current_price}"
+msgstr ""
+
+#: wp_auctions.php:2625
+msgid "Auction win notice:"
+msgstr ""
+
+#: wp_auctions.php:2647
+msgid ""
+"If you want a custom message to use when a bidder wins an auction, please "
+"enter it here. You can use the keywords:<br><strong>{site_name}, "
+"{auction_name}, {auction_link}, {current_price} {payment_details} "
+"{contact_email}"
+msgstr ""
+
+#: wp_auctions.php:2718
+msgid "Select an auction"
+msgstr ""
+
+#: wp_auctions.php:2727
+msgid "You should only have a single auction on each page or post"
+msgstr ""
+
+#: wp_auctions.php:2729
+msgid "Please create some auctions first"
+msgstr ""
+
+#: wp_auctions.php:2737
+msgid "Insert Auction"
+msgstr ""
