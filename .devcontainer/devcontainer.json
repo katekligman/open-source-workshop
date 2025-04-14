@@ -1,0 +1,16 @@
+{
+	"name": "Open Source Workshop Codespace",
+	"postCreateCommand": "bash .devcontainer/install.sh",
+	"postStartCommand": "sudo service apache2 restart && sudo service mysql restart",
+	"forwardPorts": [80],
+	"portsAttributes": {
+		"80": {
+		  "label": "Apache Server",
+		  "onAutoForward": "openBrowser"
+		}
+	},
+	"remoteEnv": {
+  		"PATH": "/usr/bin:.:${PATH}"
+	}	
+}
+  
